@@ -1,0 +1,14 @@
+[alias]
+	aliases = config --get-regexp alias
+	br = branch -av
+	cp = cherry-pick
+	rb = rebase
+	rbi = rebase -i
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbs = rebase --skip
+	s = status -sb
+	unstage = reset HEAD --
+
+[include]
+	path = ~/.gitconfig-local
