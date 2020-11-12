@@ -9,6 +9,7 @@
 	rbs = rebase --skip
 	s = status -sb
 	unstage = reset HEAD --
-
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [include]
 	path = ~/.gitconfig-local
