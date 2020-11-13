@@ -2,6 +2,7 @@
 	aliases = config --get-regexp alias
 	br = branch -av
 	cp = cherry-pick
+	id = "!git config user.name \"$(git config user.$1.name)\"; git config user.email \"$(git config user.$1.email)\"; :"
 	rb = rebase
 	rbi = rebase -i
 	rba = rebase --abort
@@ -9,9 +10,12 @@
 	rbs = rebase --skip
 	s = status -sb
 	unstage = reset HEAD --
+	whoami = "!git config user.name; git config user.email"
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [include]
 	path = ~/.gitconfig-local
 [pull]
     rebase = true
+[user]
+	useConfigOnly = true
