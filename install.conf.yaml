@@ -8,6 +8,7 @@
     ~/.gitconfig: git/.gitconfig
     ~/.gitignore: git/.gitignore
     ~/.zpreztorc: zsh/.zpreztorc
+    ~/.zshrc: zsh/.zshrc
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
