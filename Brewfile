@@ -5,6 +5,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 brew "ack"
+brew "antigen"
 brew "coreutils"
 brew "diff-so-fancy"
 brew "direnv"
@@ -69,6 +70,7 @@ mas "Battery Indicator", id: 1206020918
 mas "DaisyDisk", id: 411643860
 mas "Dato", id: 1470584107
 mas "Drafts", id: 1435957248
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "iA Writer", id: 775737590
 mas "Lungo", id: 1263070803
 mas "Moom", id: 419330170
@@ -76,4 +78,5 @@ mas "Pages", id: 409201541
 mas "Paprika Recipe Manager 3", id: 1303222628
 mas "Soulver", id: 413965349
 mas "StopTheMadness", id: 1376402589
+mas "Things", id: 904280696
 mas "ToothFairy", id: 1191449274
