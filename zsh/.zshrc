@@ -10,6 +10,7 @@ antigen bundle utility
 antigen bundle completion
 
 # external plugins
+antigen bundle djui/alias-tips
 antigen bundle lukechilds/zsh-better-npm-completion
 antigen bundle lukechilds/zsh-nvm
 antigen bundle zdharma/zsh-diff-so-fancy
