@@ -1,6 +1,7 @@
 source /usr/local/share/antigen/antigen.zsh
 
 export NVM_AUTO_USE=true
+antigen bundle lukechilds/zsh-better-npm-completion
 antigen bundle lukechilds/zsh-nvm
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
