@@ -1,4 +1,5 @@
-source /usr/local/share/antigen/antigen.zsh
+[[ ! -d "$HOME/.antigen" ]] && git clone https://github.com/zsh-users/antigen.git "$HOME/.antigen"
+source "$HOME/.antigen/antigen.zsh"
 
 export NVM_AUTO_USE=true
 
