@@ -13,6 +13,7 @@ antigen bundle completion
 antigen bundle djui/alias-tips
 antigen bundle lukechilds/zsh-better-npm-completion
 antigen bundle lukechilds/zsh-nvm
+antigen bundle trystan2k/zsh-tab-title
 antigen bundle zdharma/zsh-diff-so-fancy
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
