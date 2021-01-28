@@ -18,16 +18,17 @@ brew "imagemagick"
 brew "jq"
 brew "libevent"
 brew "mackup"
+brew "ruby"
+brew "macvim"
 brew "mas"
 brew "nodenv"
 brew "nvm"
 brew "proctools"
 brew "python@3.8"
-brew "ruby"
 brew "the_silver_searcher"
 brew "tmux"
 brew "tree"
-brew "vim"
+brew "vim", link: false
 brew "yarn"
 brew "zlib"
 brew "zsh"
@@ -49,7 +50,6 @@ cask "google-chrome-canary"
 cask "iterm2"
 cask "karabiner-elements"
 cask "keycastr"
-cask "macvim"
 cask "markdown-service-tools"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
@@ -61,15 +61,19 @@ cask "runjs"
 cask "safari-technology-preview"
 cask "slack"
 cask "visual-studio-code"
-cask "zoomus"
+cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "Battery Indicator", id: 1206020918
 mas "DaisyDisk", id: 411643860
 mas "Dato", id: 1470584107
 mas "Drafts", id: 1435957248
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
+mas "GarageBand", id: 682658836
 mas "iA Writer", id: 775737590
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
 mas "Lungo", id: 1263070803
+mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Paprika Recipe Manager 3", id: 1303222628
 mas "Soulver", id: 413965349
