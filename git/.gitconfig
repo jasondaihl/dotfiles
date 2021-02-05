@@ -15,7 +15,7 @@
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [include]
 	path = ~/.gitconfig-local
-[includeIf "gitdir:~/Projects/work/"]
+[includeIf "gitdir:~/Projects/expedia/"]
   path = ~/.gitconfig-work
 [pull]
     rebase = true
